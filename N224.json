@@ -1,0 +1,62 @@
+{
+	"N224":{
+		"schema":"",
+		"name":"N224",
+		"sources":[
+			{
+				"bibcode":"2013ApJ...764..184M",
+				"url":"http://adsabs.harvard.edu/abs/2013ApJ...764..184M",
+				"alias":"1"
+			},
+			{
+				"url":"http://adsabs.harvard.edu/abs/2005ApJ...631..280B",
+				"alias":"2"
+			}
+		],
+		"alias":[
+			{
+				"value":"N224",
+				"source":"1"
+			}
+		],
+		"distance":[
+			{
+				"value":"0.73",
+				"u_value":"Mpc",
+				"source":"1"
+			}
+		],
+		"galaxy_bulge_mass":[
+			{
+				"value":"3.55e10",
+				"description":"Mass of the host's bulge",
+				"u_value":"Msol",
+				"source":"1"
+			}
+		],
+		"galaxy_bulge_vel_disp":[
+			{
+				"value":"160",
+				"description":"Host, bulge velocity dispersion",
+				"u_value":"km/s",
+				"source":"1"
+			}
+		],
+		"galaxy_morphology":[
+			{
+				"value":"S",
+				"description":"Morphology of the host galaxy: Morphologies are  elliptical (E), lenticular (S0), spiral (S), and irregular (Irr). Inner photometric profiles are core (C), intermediate (I), and power-law (pl).",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"1.4e8",
+				"description":"BH Mass with one-sigma errors.  Method: 'stars'",
+				"e_lower_value":"0.3e8",
+				"u_value":"Msol",
+				"source":"1,2"
+			}
+		]
+	}
+}

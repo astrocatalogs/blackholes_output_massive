@@ -1,0 +1,81 @@
+{
+	"N4291":{
+		"schema":"",
+		"name":"N4291",
+		"sources":[
+			{
+				"bibcode":"2013ApJ...764..184M",
+				"url":"http://adsabs.harvard.edu/abs/2013ApJ...764..184M",
+				"alias":"1"
+			},
+			{
+				"url":"http://adsabs.harvard.edu/abs/2011ApJ...729...21S",
+				"alias":"2"
+			}
+		],
+		"alias":[
+			{
+				"value":"N4291",
+				"source":"1"
+			}
+		],
+		"distance":[
+			{
+				"value":"26.6",
+				"u_value":"Mpc",
+				"source":"1"
+			}
+		],
+		"galaxy_bulge_mass":[
+			{
+				"value":"9.96e10",
+				"description":"Mass of the host's bulge",
+				"u_value":"Msol",
+				"source":"1"
+			}
+		],
+		"galaxy_bulge_vel_disp":[
+			{
+				"value":"242",
+				"description":"Host, bulge velocity dispersion",
+				"u_value":"km/s",
+				"source":"1"
+			}
+		],
+		"galaxy_morphology":[
+			{
+				"value":"E (C)",
+				"description":"Morphology of the host galaxy: Morphologies are  elliptical (E), lenticular (S0), spiral (S), and irregular (Irr). Inner photometric profiles are core (C), intermediate (I), and power-law (pl).",
+				"source":"1"
+			}
+		],
+		"galaxy_rad_eff_v-band":[
+			{
+				"value":"16.1",
+				"u_value":"arcsec",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"9.8e8",
+				"description":"BH Mass with one-sigma errors.  Method: 'stars'",
+				"e_lower_value":"3.1e8",
+				"u_value":"Msol",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"band":"v",
+				"description":"Bulge v-band Luminosoity",
+				"e_luminosity":"0.05",
+				"host":true,
+				"luminosity":"10.25",
+				"u_luminosity":"Log(Lsun)",
+				"u_time":"MJD",
+				"source":"1"
+			}
+		]
+	}
+}

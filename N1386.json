@@ -1,0 +1,54 @@
+{
+	"N1386":{
+		"schema":"",
+		"name":"N1386",
+		"sources":[
+			{
+				"bibcode":"2013ApJ...764..184M",
+				"url":"http://adsabs.harvard.edu/abs/2013ApJ...764..184M",
+				"alias":"1"
+			},
+			{
+				"url":"http://adsabs.harvard.edu/abs/1997AAS...19110402B",
+				"alias":"2"
+			}
+		],
+		"alias":[
+			{
+				"value":"N1386",
+				"source":"1"
+			}
+		],
+		"distance":[
+			{
+				"value":"16.1",
+				"u_value":"Mpc",
+				"source":"1"
+			}
+		],
+		"galaxy_bulge_vel_disp":[
+			{
+				"value":"166",
+				"description":"Host, bulge velocity dispersion",
+				"u_value":"km/s",
+				"source":"1"
+			}
+		],
+		"galaxy_morphology":[
+			{
+				"value":"S0",
+				"description":"Morphology of the host galaxy: Morphologies are  elliptical (E), lenticular (S0), spiral (S), and irregular (Irr). Inner photometric profiles are core (C), intermediate (I), and power-law (pl).",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"1.2e6",
+				"description":"BH Mass with one-sigma errors.  Method: 'masers'",
+				"e_lower_value":"0.6e6",
+				"u_value":"Msol",
+				"source":"1,2"
+			}
+		]
+	}
+}

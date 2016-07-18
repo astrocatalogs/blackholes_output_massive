@@ -1,0 +1,46 @@
+{
+	"N5495":{
+		"schema":"",
+		"name":"N5495",
+		"sources":[
+			{
+				"bibcode":"2013ApJ...764..184M",
+				"url":"http://adsabs.harvard.edu/abs/2013ApJ...764..184M",
+				"alias":"1"
+			},
+			{
+				"url":"http://adsabs.harvard.edu/abs/2006ApJ...638..100K",
+				"alias":"2"
+			}
+		],
+		"alias":[
+			{
+				"value":"N5495",
+				"source":"1"
+			}
+		],
+		"distance":[
+			{
+				"value":"103",
+				"u_value":"Mpc",
+				"source":"1"
+			}
+		],
+		"galaxy_morphology":[
+			{
+				"value":"Sb",
+				"description":"Morphology of the host galaxy: Morphologies are  elliptical (E), lenticular (S0), spiral (S), and irregular (Irr). Inner photometric profiles are core (C), intermediate (I), and power-law (pl).",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"1.2e7",
+				"description":"BH Mass with one-sigma errors.  Method: 'masers'",
+				"e_lower_value":"0.6e7",
+				"u_value":"Msol",
+				"source":"1,2"
+			}
+		]
+	}
+}

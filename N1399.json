@@ -1,0 +1,92 @@
+{
+	"N1399":{
+		"schema":"",
+		"name":"N1399",
+		"sources":[
+			{
+				"bibcode":"2013ApJ...764..184M",
+				"url":"http://adsabs.harvard.edu/abs/2013ApJ...764..184M",
+				"alias":"1"
+			},
+			{
+				"url":"http://adsabs.harvard.edu/abs/2007ApJ...671.1321G",
+				"alias":"2"
+			},
+			{
+				"url":"http://adsabs.harvard.edu/abs/2006MNRAS.367....2H",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"N1399",
+				"source":"1"
+			}
+		],
+		"distance":[
+			{
+				"value":"20.9",
+				"u_value":"Mpc",
+				"source":"1"
+			}
+		],
+		"galaxy_bulge_mass":[
+			{
+				"value":"3.98e11",
+				"description":"Mass of the host's bulge",
+				"u_value":"Msol",
+				"source":"1"
+			}
+		],
+		"galaxy_bulge_vel_disp":[
+			{
+				"value":"296",
+				"description":"Host, bulge velocity dispersion",
+				"u_value":"km/s",
+				"source":"1"
+			}
+		],
+		"galaxy_morphology":[
+			{
+				"value":"E (C)",
+				"description":"Morphology of the host galaxy: Morphologies are  elliptical (E), lenticular (S0), spiral (S), and irregular (Irr). Inner photometric profiles are core (C), intermediate (I), and power-law (pl).",
+				"source":"1"
+			}
+		],
+		"galaxy_rad_eff_v-band":[
+			{
+				"value":"40.8",
+				"u_value":"arcsec",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"5.1e8",
+				"description":"BH Mass with one-sigma errors.  Method: 'stars'",
+				"e_lower_value":"0.7e8",
+				"u_value":"Msol",
+				"source":"1,2"
+			},
+			{
+				"value":"1.3e9",
+				"description":"BH Mass with one-sigma errors.  Method: 'stars'",
+				"e_lower_value":"0.7e9",
+				"u_value":"Msol",
+				"source":"1,3"
+			}
+		],
+		"photometry":[
+			{
+				"band":"v",
+				"description":"Bulge v-band Luminosoity",
+				"e_luminosity":"0.04",
+				"host":true,
+				"luminosity":"10.78",
+				"u_luminosity":"Log(Lsun)",
+				"u_time":"MJD",
+				"source":"1"
+			}
+		]
+	}
+}

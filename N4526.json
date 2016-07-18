@@ -1,0 +1,65 @@
+{
+	"N4526":{
+		"schema":"",
+		"name":"N4526",
+		"sources":[
+			{
+				"bibcode":"2013ApJ...764..184M",
+				"url":"http://adsabs.harvard.edu/abs/2013ApJ...764..184M",
+				"alias":"1"
+			},
+			{
+				"url":"http://adsabs.harvard.edu/abs/2013Natur.494..328D",
+				"alias":"2"
+			},
+			{
+				"url":"http://arxiv.org/abs/1303.0834",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"N4526",
+				"source":"1"
+			}
+		],
+		"distance":[
+			{
+				"value":"16.5",
+				"u_value":"Mpc",
+				"source":"1"
+			}
+		],
+		"galaxy_bulge_vel_disp":[
+			{
+				"value":"222",
+				"description":"Host, bulge velocity dispersion",
+				"u_value":"km/s",
+				"source":"1"
+			}
+		],
+		"galaxy_morphology":[
+			{
+				"value":"S0",
+				"description":"Morphology of the host galaxy: Morphologies are  elliptical (E), lenticular (S0), spiral (S), and irregular (Irr). Inner photometric profiles are core (C), intermediate (I), and power-law (pl).",
+				"source":"1"
+			}
+		],
+		"galaxy_rad_eff_i-band":[
+			{
+				"value":"45.6",
+				"u_value":"arcsec",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"4.73e8",
+				"description":"BH Mass with one-sigma errors.  Method: 'gas'",
+				"e_lower_value":"0.13e8",
+				"u_value":"Msol",
+				"source":"1,2,3"
+			}
+		]
+	}
+}
