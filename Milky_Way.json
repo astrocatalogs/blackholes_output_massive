@@ -1,10 +1,11 @@
 {
-	"Milky Way":{
+	"milky_way":{
 		"schema":"",
-		"name":"Milky Way",
+		"name":"milky_way",
 		"sources":[
 			{
 				"bibcode":"2013ApJ...764..184M",
+				"secondary":true,
 				"url":"http://adsabs.harvard.edu/abs/2013ApJ...764..184M",
 				"alias":"1"
 			},
@@ -19,7 +20,7 @@
 		],
 		"alias":[
 			{
-				"value":"Milky Way",
+				"value":"milky_way",
 				"source":"1"
 			}
 		],
@@ -47,9 +48,10 @@
 		],
 		"mass":[
 			{
-				"value":"4.1e6",
+				"value":"4.1e+06",
 				"description":"BH Mass with one-sigma errors.  Method: 'stars'",
 				"e_lower_value":"0.6e6",
+				"e_upper_value":"0.6e6",
 				"u_value":"Msol",
 				"source":"1,2,3"
 			}

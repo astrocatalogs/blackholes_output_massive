@@ -1,0 +1,64 @@
+{
+	"Zw229-015":{
+		"schema":"",
+		"name":"Zw229-015",
+		"sources":[
+			{
+				"bibcode":"2015PASP..127...67B",
+				"secondary":true,
+				"url":"http://adsabs.harvard.edu/abs/2015PASP..127...67B",
+				"alias":"1"
+			},
+			{
+				"name":"Barth et al. 2011 ApJ, 732, 121",
+				"bibcode":"2011ApJ...732..121B",
+				"url":"http://adsabs.harvard.edu/abs/2011ApJ...732..121B",
+				"alias":"2"
+			}
+		],
+		"alias":[
+			{
+				"value":"Zw229-015",
+				"source":"1"
+			},
+			{
+				"value":"KIC006932990",
+				"source":"1"
+			}
+		],
+		"agn_activity":[
+			{
+				"value":"Sy 1",
+				"source":"1"
+			}
+		],
+		"dec":[
+			{
+				"value":"+42:27:40",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"6.913",
+				"description":"BH Mass with one-sigma errors, calculated w/ reverberation mapping using a scale-factor of <f> = 4.3",
+				"e_lower_value":"0.119",
+				"e_upper_value":"0.075",
+				"u_value":"log(Msol)",
+				"source":"1,2"
+			}
+		],
+		"ra":[
+			{
+				"value":"19:05:25.9",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.02788",
+				"source":"1"
+			}
+		]
+	}
+}

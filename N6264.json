@@ -5,6 +5,7 @@
 		"sources":[
 			{
 				"bibcode":"2013ApJ...764..184M",
+				"secondary":true,
 				"url":"http://adsabs.harvard.edu/abs/2013ApJ...764..184M",
 				"alias":"1"
 			},
@@ -43,9 +44,10 @@
 		],
 		"mass":[
 			{
-				"value":"3.03e7",
+				"value":"3.03e+07",
 				"description":"BH Mass with one-sigma errors.  Method: 'masers'",
-				"e_lower_value":"0.04e7",
+				"e_lower_value":"0.05e7",
+				"e_upper_value":"0.04e7",
 				"u_value":"Msol",
 				"source":"1,2"
 			}

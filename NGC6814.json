@@ -1,0 +1,90 @@
+{
+	"NGC6814":{
+		"schema":"",
+		"name":"NGC6814",
+		"sources":[
+			{
+				"bibcode":"2015PASP..127...67B",
+				"secondary":true,
+				"url":"http://adsabs.harvard.edu/abs/2015PASP..127...67B",
+				"alias":"1"
+			},
+			{
+				"name":"Bentz et al. 2013 ApJ, 767, 149",
+				"bibcode":"2013ApJ...767..149B",
+				"url":"http://adsabs.harvard.edu/abs/2013ApJ...767..149B",
+				"alias":"2"
+			},
+			{
+				"name":"Bentz et al. 2009 ApJ, 705, 199",
+				"bibcode":"2009ApJ...705..199B",
+				"url":"http://adsabs.harvard.edu/abs/2009ApJ...705..199B",
+				"alias":"3"
+			},
+			{
+				"name":"Bentz et al. 2010 ApJ, 716, 993",
+				"bibcode":"2010ApJ...716..993B",
+				"url":"http://adsabs.harvard.edu/abs/2010ApJ...716..993B",
+				"alias":"4"
+			},
+			{
+				"name":"Grier et al. 2013 ApJ, 773, 90",
+				"bibcode":"2013ApJ...773...90G",
+				"url":"http://adsabs.harvard.edu/abs/2013ApJ...773...90G",
+				"alias":"5"
+			}
+		],
+		"alias":[
+			{
+				"value":"NGC6814",
+				"source":"1"
+			}
+		],
+		"agn_activity":[
+			{
+				"value":"Sy 1.5",
+				"source":"1"
+			}
+		],
+		"dec":[
+			{
+				"value":"-10:19:25",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"7.038",
+				"description":"BH Mass with one-sigma errors, calculated w/ reverberation mapping using a scale-factor of <f> = 4.3",
+				"e_lower_value":"0.058",
+				"e_upper_value":"0.056",
+				"u_value":"log(Msol)",
+				"source":"1,3,4,5"
+			}
+		],
+		"ra":[
+			{
+				"value":"19:42:40.6",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.00521",
+				"source":"1"
+			}
+		],
+		"photometry":[
+			{
+				"description":"Spectroscopic, monochromatic luminosities at 5100 angstrom.",
+				"e_luminosity":"0.29",
+				"host":true,
+				"luminosity":"42.05",
+				"u_luminosity":"log(erg/s)",
+				"u_wavelength":"angrstrom",
+				"wavelength":"5100",
+				"source":"1,2"
+			}
+		]
+	}
+}

@@ -5,6 +5,7 @@
 		"sources":[
 			{
 				"bibcode":"2013ApJ...764..184M",
+				"secondary":true,
 				"url":"http://adsabs.harvard.edu/abs/2013ApJ...764..184M",
 				"alias":"1"
 			},
@@ -21,14 +22,14 @@
 		],
 		"distance":[
 			{
-				"value":"23.0",
+				"value":"23",
 				"u_value":"Mpc",
 				"source":"1"
 			}
 		],
 		"galaxy_bulge_mass":[
 			{
-				"value":"1.80e10",
+				"value":"1.8e+10",
 				"description":"Mass of the host's bulge",
 				"u_value":"Msol",
 				"source":"1"
@@ -58,9 +59,10 @@
 		],
 		"mass":[
 			{
-				"value":"4.6e8",
+				"value":"4.6e+08",
 				"description":"BH Mass with one-sigma errors.  Method: 'stars'",
-				"e_lower_value":"1.5e8",
+				"e_lower_value":"2.6e8",
+				"e_upper_value":"1.5e8",
 				"u_value":"Msol",
 				"source":"1,2"
 			}

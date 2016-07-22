@@ -1,0 +1,66 @@
+{
+	"Mrk6":{
+		"schema":"",
+		"name":"Mrk6",
+		"sources":[
+			{
+				"bibcode":"2015PASP..127...67B",
+				"secondary":true,
+				"url":"http://adsabs.harvard.edu/abs/2015PASP..127...67B",
+				"alias":"1"
+			},
+			{
+				"name":"Grier et al. 2012 ApJ, 755, 60",
+				"bibcode":"2012ApJ...755...60G",
+				"url":"http://adsabs.harvard.edu/abs/2012ApJ...755...60G",
+				"alias":"2"
+			},
+			{
+				"name":"Doroshenko et al. 2012 MNRAS, 426, 416",
+				"bibcode":"2012MNRAS.426..416D",
+				"url":"http://adsabs.harvard.edu/abs/2012MNRAS.426..416D",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"Mrk6",
+				"source":"1"
+			}
+		],
+		"agn_activity":[
+			{
+				"value":"Sy 1.5",
+				"source":"1"
+			}
+		],
+		"dec":[
+			{
+				"value":"+74:25:37",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"8.102",
+				"description":"BH Mass with one-sigma errors, calculated w/ reverberation mapping using a scale-factor of <f> = 4.3",
+				"e_lower_value":"0.041",
+				"e_upper_value":"0.037",
+				"u_value":"log(Msol)",
+				"source":"1,2,3"
+			}
+		],
+		"ra":[
+			{
+				"value":"06:52:12.2",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.01881",
+				"source":"1"
+			}
+		]
+	}
+}

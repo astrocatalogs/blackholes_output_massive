@@ -5,6 +5,7 @@
 		"sources":[
 			{
 				"bibcode":"2013ApJ...764..184M",
+				"secondary":true,
 				"url":"http://adsabs.harvard.edu/abs/2013ApJ...764..184M",
 				"alias":"1"
 			},
@@ -28,7 +29,7 @@
 		],
 		"galaxy_bulge_mass":[
 			{
-				"value":"8.22e11",
+				"value":"8.22e+11",
 				"description":"Mass of the host's bulge",
 				"u_value":"Msol",
 				"source":"1"
@@ -58,9 +59,10 @@
 		],
 		"mass":[
 			{
-				"value":"2.4e9",
+				"value":"2.4e+09",
 				"description":"BH Mass with one-sigma errors.  Method: 'stars'",
-				"e_lower_value":"0.1e9",
+				"e_lower_value":"0.3e9",
+				"e_upper_value":"0.1e9",
 				"u_value":"Msol",
 				"source":"1,2"
 			}
@@ -73,7 +75,6 @@
 				"host":true,
 				"luminosity":"11.04",
 				"u_luminosity":"Log(Lsun)",
-				"u_time":"MJD",
 				"source":"1"
 			}
 		]

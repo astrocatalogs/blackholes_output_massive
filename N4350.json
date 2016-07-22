@@ -5,6 +5,7 @@
 		"sources":[
 			{
 				"bibcode":"2013ApJ...764..184M",
+				"secondary":true,
 				"url":"http://adsabs.harvard.edu/abs/2013ApJ...764..184M",
 				"alias":"1"
 			},
@@ -21,7 +22,7 @@
 		],
 		"distance":[
 			{
-				"value":"17.0",
+				"value":"17",
 				"u_value":"Mpc",
 				"source":"1"
 			}
@@ -43,9 +44,10 @@
 		],
 		"mass":[
 			{
-				"value":"5.6e8",
+				"value":"5.6e+08",
 				"description":"BH Mass with one-sigma errors.  Method: 'gas,stars'",
 				"e_lower_value":"4.1e8",
+				"e_upper_value":"4.1e8",
 				"u_value":"Msol",
 				"source":"1,2"
 			}

@@ -5,6 +5,7 @@
 		"sources":[
 			{
 				"bibcode":"2013ApJ...764..184M",
+				"secondary":true,
 				"url":"http://adsabs.harvard.edu/abs/2013ApJ...764..184M",
 				"alias":"1"
 			},
@@ -28,7 +29,7 @@
 		],
 		"galaxy_bulge_mass":[
 			{
-				"value":"3.66e11",
+				"value":"3.66e+11",
 				"description":"Mass of the host's bulge",
 				"u_value":"Msol",
 				"source":"1"
@@ -58,16 +59,17 @@
 		],
 		"galaxy_rad_eff_v-band":[
 			{
-				"value":"25.0",
+				"value":"25",
 				"u_value":"arcsec",
 				"source":"1"
 			}
 		],
 		"mass":[
 			{
-				"value":"8.0e8",
+				"value":"8e+08",
 				"description":"BH Mass with one-sigma errors.  Method: 'gas'",
-				"e_lower_value":"3.3e8",
+				"e_lower_value":"5.0e8",
+				"e_upper_value":"3.3e8",
 				"u_value":"Msol",
 				"source":"1,2"
 			}
@@ -80,7 +82,6 @@
 				"host":true,
 				"luminosity":"10.75",
 				"u_luminosity":"Log(Lsun)",
-				"u_time":"MJD",
 				"source":"1"
 			},
 			{
@@ -89,7 +90,6 @@
 				"host":true,
 				"luminosity":"11.56",
 				"u_luminosity":"Log(Lsun)",
-				"u_time":"MJD",
 				"u_wavelength":"micron",
 				"wavelength":"3.6",
 				"source":"1"

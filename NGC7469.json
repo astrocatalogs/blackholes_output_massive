@@ -1,0 +1,86 @@
+{
+	"NGC7469":{
+		"schema":"",
+		"name":"NGC7469",
+		"sources":[
+			{
+				"bibcode":"2015PASP..127...67B",
+				"secondary":true,
+				"url":"http://adsabs.harvard.edu/abs/2015PASP..127...67B",
+				"alias":"1"
+			},
+			{
+				"name":"Wanders et al. 1997 ApJ, 113, 69",
+				"bibcode":"1997ApJS..113...69W",
+				"url":"http://adsabs.harvard.edu/abs/1997ApJS..113...69W",
+				"alias":"2"
+			},
+			{
+				"name":"Collier et al. 1998 ApJ, 500, 162",
+				"bibcode":"1998ApJ...500..162C",
+				"url":"http://adsabs.harvard.edu/abs/1998ApJ...500..162C",
+				"alias":"3"
+			},
+			{
+				"name":"Zu et al. 2011 ApJ, 735, 80",
+				"bibcode":"2011ApJ...735...80Z",
+				"url":"http://adsabs.harvard.edu/abs/2011ApJ...735...80Z",
+				"alias":"4"
+			},
+			{
+				"name":"Peterson et al. 2014 ApJ, 795, 149",
+				"bibcode":"2014ApJ...795..149P",
+				"url":"http://adsabs.harvard.edu/abs/2014ApJ...795..149P",
+				"alias":"5"
+			}
+		],
+		"alias":[
+			{
+				"value":"NGC7469",
+				"source":"1"
+			},
+			{
+				"value":"Mrk1514",
+				"source":"1"
+			},
+			{
+				"value":"Mrk9003",
+				"source":"1"
+			}
+		],
+		"agn_activity":[
+			{
+				"value":"NLSy1",
+				"source":"1"
+			}
+		],
+		"dec":[
+			{
+				"value":"+08:52:26",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"6.956",
+				"description":"BH Mass with one-sigma errors, calculated w/ reverberation mapping using a scale-factor of <f> = 4.3",
+				"e_lower_value":"0.050",
+				"e_upper_value":"0.048",
+				"u_value":"log(Msol)",
+				"source":"1,2,3,4,5"
+			}
+		],
+		"ra":[
+			{
+				"value":"23:03:15.6",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.01632",
+				"source":"1"
+			}
+		]
+	}
+}

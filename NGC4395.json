@@ -1,0 +1,60 @@
+{
+	"NGC4395":{
+		"schema":"",
+		"name":"NGC4395",
+		"sources":[
+			{
+				"bibcode":"2015PASP..127...67B",
+				"secondary":true,
+				"url":"http://adsabs.harvard.edu/abs/2015PASP..127...67B",
+				"alias":"1"
+			},
+			{
+				"name":"Peterson et al. 2005 ApJ, 632, 799",
+				"bibcode":"2005ApJ...632..799P",
+				"url":"http://adsabs.harvard.edu/abs/2005ApJ...632..799P",
+				"alias":"2"
+			}
+		],
+		"alias":[
+			{
+				"value":"NGC4395",
+				"source":"1"
+			}
+		],
+		"agn_activity":[
+			{
+				"value":"Sy 1.8",
+				"source":"1"
+			}
+		],
+		"dec":[
+			{
+				"value":"+33:32:49",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"5.449",
+				"description":"BH Mass with one-sigma errors, calculated w/ reverberation mapping using a scale-factor of <f> = 4.3",
+				"e_lower_value":"0.145",
+				"e_upper_value":"0.130",
+				"u_value":"log(Msol)",
+				"source":"1,2"
+			}
+		],
+		"ra":[
+			{
+				"value":"12:25:48.8",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.00106",
+				"source":"1"
+			}
+		]
+	}
+}

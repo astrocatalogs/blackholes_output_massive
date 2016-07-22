@@ -1,0 +1,66 @@
+{
+	"PG0844+349":{
+		"schema":"",
+		"name":"PG0844+349",
+		"sources":[
+			{
+				"bibcode":"2015PASP..127...67B",
+				"secondary":true,
+				"url":"http://adsabs.harvard.edu/abs/2015PASP..127...67B",
+				"alias":"1"
+			},
+			{
+				"name":"Kaspi et al. 2000 ApJ, 533, 631",
+				"bibcode":"2000ApJ...533..631K",
+				"url":"http://adsabs.harvard.edu/abs/2000ApJ...533..631K",
+				"alias":"2"
+			},
+			{
+				"name":"Zu et al. 2011 ApJ, 735, 80",
+				"bibcode":"2011ApJ...735...80Z",
+				"url":"http://adsabs.harvard.edu/abs/2011ApJ...735...80Z",
+				"alias":"3"
+			}
+		],
+		"alias":[
+			{
+				"value":"PG0844+349",
+				"source":"1"
+			}
+		],
+		"agn_activity":[
+			{
+				"value":"Sy 1.0",
+				"source":"1"
+			}
+		],
+		"dec":[
+			{
+				"value":"+34:45:04",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"7.858",
+				"description":"BH Mass with one-sigma errors, calculated w/ reverberation mapping using a scale-factor of <f> = 4.3",
+				"e_lower_value":"0.230",
+				"e_upper_value":"0.154",
+				"u_value":"log(Msol)",
+				"source":"1,2,3"
+			}
+		],
+		"ra":[
+			{
+				"value":"08:47:42.4",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.064",
+				"source":"1"
+			}
+		]
+	}
+}

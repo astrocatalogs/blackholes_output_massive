@@ -1,0 +1,72 @@
+{
+	"NGC5273":{
+		"schema":"",
+		"name":"NGC5273",
+		"sources":[
+			{
+				"bibcode":"2015PASP..127...67B",
+				"secondary":true,
+				"url":"http://adsabs.harvard.edu/abs/2015PASP..127...67B",
+				"alias":"1"
+			},
+			{
+				"name":"Bentz et al. 2014 ApJ, 796, 8",
+				"bibcode":"2014ApJ...796....8B",
+				"url":"http://adsabs.harvard.edu/abs/2014ApJ...796....8B",
+				"alias":"2"
+			}
+		],
+		"alias":[
+			{
+				"value":"NGC5273",
+				"source":"1"
+			}
+		],
+		"agn_activity":[
+			{
+				"value":"Sy 1",
+				"source":"1"
+			}
+		],
+		"dec":[
+			{
+				"value":"+35:39:15",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"6.66",
+				"description":"BH Mass with one-sigma errors, calculated w/ reverberation mapping using a scale-factor of <f> = 4.3",
+				"e_lower_value":"0.190",
+				"e_upper_value":"0.125",
+				"u_value":"log(Msol)",
+				"source":"1,2"
+			}
+		],
+		"ra":[
+			{
+				"value":"13:42:08.3",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.00362",
+				"source":"1"
+			}
+		],
+		"photometry":[
+			{
+				"description":"Spectroscopic, monochromatic luminosities at 5100 angstrom.",
+				"e_luminosity":"0.14",
+				"host":true,
+				"luminosity":"41.53",
+				"u_luminosity":"log(erg/s)",
+				"u_wavelength":"angrstrom",
+				"wavelength":"5100",
+				"source":"1,2"
+			}
+		]
+	}
+}

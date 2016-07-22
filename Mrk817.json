@@ -1,0 +1,114 @@
+{
+	"Mrk817":{
+		"schema":"",
+		"name":"Mrk817",
+		"sources":[
+			{
+				"bibcode":"2015PASP..127...67B",
+				"secondary":true,
+				"url":"http://adsabs.harvard.edu/abs/2015PASP..127...67B",
+				"alias":"1"
+			},
+			{
+				"name":"Bentz et al. 2013 ApJ, 767, 149",
+				"bibcode":"2013ApJ...767..149B",
+				"url":"http://adsabs.harvard.edu/abs/2013ApJ...767..149B",
+				"alias":"2"
+			},
+			{
+				"name":"Peterson et al. 1998 ApJ, 501, 82",
+				"bibcode":"1998ApJ...501...82P",
+				"url":"http://adsabs.harvard.edu/abs/1998ApJ...501...82P",
+				"alias":"3"
+			},
+			{
+				"name":"Denney et al. 2010 ApJ, 721, 715",
+				"bibcode":"2010ApJ...721..715D",
+				"url":"http://adsabs.harvard.edu/abs/2010ApJ...721..715D",
+				"alias":"4"
+			},
+			{
+				"name":"Zu et al. 2011 ApJ, 735, 80",
+				"bibcode":"2011ApJ...735...80Z",
+				"url":"http://adsabs.harvard.edu/abs/2011ApJ...735...80Z",
+				"alias":"5"
+			}
+		],
+		"alias":[
+			{
+				"value":"Mrk817",
+				"source":"1"
+			},
+			{
+				"value":"PG1434+590",
+				"source":"1"
+			}
+		],
+		"agn_activity":[
+			{
+				"value":"Sy 1.5",
+				"source":"1"
+			}
+		],
+		"dec":[
+			{
+				"value":"+58:47:39",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"7.586",
+				"description":"BH Mass with one-sigma errors, calculated w/ reverberation mapping using a scale-factor of <f> = 4.3",
+				"e_lower_value":"0.072",
+				"e_upper_value":"0.064",
+				"u_value":"log(Msol)",
+				"source":"1,3,4,5"
+			}
+		],
+		"ra":[
+			{
+				"value":"14:36:22.1",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.03146",
+				"source":"1"
+			}
+		],
+		"photometry":[
+			{
+				"description":"Spectroscopic, monochromatic luminosities at 5100 angstrom.",
+				"e_luminosity":"0.05",
+				"host":true,
+				"luminosity":"43.73",
+				"u_luminosity":"log(erg/s)",
+				"u_wavelength":"angrstrom",
+				"wavelength":"5100",
+				"source":"1,2"
+			},
+			{
+				"description":"Spectroscopic, monochromatic luminosities at 5100 angstrom.",
+				"e_luminosity":"0.05",
+				"host":true,
+				"luminosity":"43.61",
+				"u_luminosity":"log(erg/s)",
+				"u_wavelength":"angrstrom",
+				"wavelength":"5100",
+				"source":"1,2"
+			},
+			{
+				"description":"Spectroscopic, monochromatic luminosities at 5100 angstrom.",
+				"e_luminosity":"0.05",
+				"host":true,
+				"luminosity":"43.78",
+				"u_luminosity":"log(erg/s)",
+				"u_wavelength":"angrstrom",
+				"wavelength":"5100",
+				"source":"1,2"
+			}
+		]
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"PG0052+251":{
+		"schema":"",
+		"name":"PG0052+251",
+		"sources":[
+			{
+				"bibcode":"2015PASP..127...67B",
+				"secondary":true,
+				"url":"http://adsabs.harvard.edu/abs/2015PASP..127...67B",
+				"alias":"1"
+			},
+			{
+				"name":"Bentz et al. 2013 ApJ, 767, 149",
+				"bibcode":"2013ApJ...767..149B",
+				"url":"http://adsabs.harvard.edu/abs/2013ApJ...767..149B",
+				"alias":"2"
+			},
+			{
+				"name":"Kaspi et al. 2000 ApJ, 533, 631",
+				"bibcode":"2000ApJ...533..631K",
+				"url":"http://adsabs.harvard.edu/abs/2000ApJ...533..631K",
+				"alias":"3"
+			},
+			{
+				"name":"Zu et al. 2011 ApJ, 735, 80",
+				"bibcode":"2011ApJ...735...80Z",
+				"url":"http://adsabs.harvard.edu/abs/2011ApJ...735...80Z",
+				"alias":"4"
+			}
+		],
+		"alias":[
+			{
+				"value":"PG0052+251",
+				"source":"1"
+			}
+		],
+		"agn_activity":[
+			{
+				"value":"Sy 1.2",
+				"source":"1"
+			}
+		],
+		"dec":[
+			{
+				"value":"+25:25:38",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"8.462",
+				"description":"BH Mass with one-sigma errors, calculated w/ reverberation mapping using a scale-factor of <f> = 4.3",
+				"e_lower_value":"0.094",
+				"e_upper_value":"0.083",
+				"u_value":"log(Msol)",
+				"source":"1,3,4"
+			}
+		],
+		"ra":[
+			{
+				"value":"00:54:52.1",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.15445",
+				"source":"1"
+			}
+		],
+		"photometry":[
+			{
+				"description":"Spectroscopic, monochromatic luminosities at 5100 angstrom.",
+				"e_luminosity":"0.03",
+				"host":true,
+				"luminosity":"44.75",
+				"u_luminosity":"log(erg/s)",
+				"u_wavelength":"angrstrom",
+				"wavelength":"5100",
+				"source":"1,2"
+			}
+		]
+	}
+}

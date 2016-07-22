@@ -1,0 +1,100 @@
+{
+	"3C120":{
+		"schema":"",
+		"name":"3C120",
+		"sources":[
+			{
+				"bibcode":"2015PASP..127...67B",
+				"secondary":true,
+				"url":"http://adsabs.harvard.edu/abs/2015PASP..127...67B",
+				"alias":"1"
+			},
+			{
+				"name":"Bentz et al. 2013 ApJ, 767, 149",
+				"bibcode":"2013ApJ...767..149B",
+				"url":"http://adsabs.harvard.edu/abs/2013ApJ...767..149B",
+				"alias":"2"
+			},
+			{
+				"name":"Peterson et al. 1998 ApJ, 501, 82",
+				"bibcode":"1998ApJ...501...82P",
+				"url":"http://adsabs.harvard.edu/abs/1998ApJ...501...82P",
+				"alias":"3"
+			},
+			{
+				"name":"Grier et al. 2012 ApJ, 755, 60",
+				"bibcode":"2012ApJ...755...60G",
+				"url":"http://adsabs.harvard.edu/abs/2012ApJ...755...60G",
+				"alias":"4"
+			},
+			{
+				"name":"Kollatschny et al. 2014 A&A, 566, 106",
+				"bibcode":"2014A%26A...566A.106K",
+				"url":"http://adsabs.harvard.edu/abs/2014A%26A...566A.106K",
+				"alias":"5"
+			}
+		],
+		"alias":[
+			{
+				"value":"3C120",
+				"source":"1"
+			}
+		],
+		"agn_activity":[
+			{
+				"value":"FSRQ",
+				"source":"1"
+			}
+		],
+		"dec":[
+			{
+				"value":"+05:21:16",
+				"source":"1"
+			}
+		],
+		"mass":[
+			{
+				"value":"7.745",
+				"description":"BH Mass with one-sigma errors, calculated w/ reverberation mapping using a scale-factor of <f> = 4.3",
+				"e_lower_value":"0.040",
+				"e_upper_value":"0.038",
+				"u_value":"log(Msol)",
+				"source":"1,3,4,5"
+			}
+		],
+		"ra":[
+			{
+				"value":"04:33:11.1",
+				"source":"1"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.03301",
+				"source":"1"
+			}
+		],
+		"photometry":[
+			{
+				"description":"Spectroscopic, monochromatic luminosities at 5100 angstrom.",
+				"e_luminosity":"0.05",
+				"host":true,
+				"luminosity":"44.01",
+				"u_luminosity":"log(erg/s)",
+				"u_wavelength":"angrstrom",
+				"wavelength":"5100",
+				"source":"1,2"
+			},
+			{
+				"description":"Spectroscopic, monochromatic luminosities at 5100 angstrom.",
+				"e_luminosity":"0.05",
+				"host":true,
+				"luminosity":"43.87",
+				"u_luminosity":"log(erg/s)",
+				"u_wavelength":"angrstrom",
+				"wavelength":"5100",
+				"source":"1,2"
+			}
+		]
+	}
+}

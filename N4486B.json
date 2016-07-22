@@ -5,6 +5,7 @@
 		"sources":[
 			{
 				"bibcode":"2013ApJ...764..184M",
+				"secondary":true,
 				"url":"http://adsabs.harvard.edu/abs/2013ApJ...764..184M",
 				"alias":"1"
 			},
@@ -43,9 +44,10 @@
 		],
 		"mass":[
 			{
-				"value":"5.8e8",
+				"value":"5.8e+08",
 				"description":"BH Mass with one-sigma errors.  Method: 'stars'",
-				"e_lower_value":"2.0e8",
+				"e_lower_value":"2.9e8",
+				"e_upper_value":"2.0e8",
 				"u_value":"Msol",
 				"source":"1,2"
 			}
@@ -58,7 +60,6 @@
 				"host":true,
 				"luminosity":"9.07",
 				"u_luminosity":"Log(Lsun)",
-				"u_time":"MJD",
 				"source":"1"
 			}
 		]
